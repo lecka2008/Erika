@@ -1,0 +1,27 @@
+// Cadastro simples de aluno em JavaScript
+
+// Função para cadastrar aluno
+function cadastrarAluno() {
+  // Coleta de dados do aluno
+  let nome = prompt("Digite o nome do aluno:");
+  let ra = prompt("Digite o RA do aluno:");
+  let endereco = prompt("Digite o endereço do aluno:");
+
+  // Criação do objeto aluno
+  let aluno = {
+    nome: nome,
+    ra: ra,
+    endereco: endereco
+  };
+
+  // Exibição dos dados no console
+  console.log("=== Cadastro de Aluno ===");
+  console.log("Nome: " + aluno.nome);
+  console.log("RA: " + aluno.ra);
+  console.log("Endereço: " + aluno.endereco);
+  console.log("=========================");
+}
+
+// Chama a função
+cadastrarAluno();
+
